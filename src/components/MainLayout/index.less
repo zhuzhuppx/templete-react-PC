@@ -1,0 +1,59 @@
+.layout_wrap {
+    height          : 100vh;
+    background-color: #fff;
+
+    .sider_wrap {
+        background-color: #fff;
+        height          : 98vh;
+
+        .logo_box {
+            font-size       : 16px;
+            background-color: lightblue;
+            height          : 64px;
+            line-height     : 64px;
+            text-align      : center;
+            color           : #fff;
+        }
+    }
+
+    .main_wrap {
+        .header_wrap {
+            background-color: #fff;
+            display         : flex;
+            justify-content : space-between;
+            padding         : 0;
+
+            .head_left {
+                display: flex;
+
+                .trigger {
+                    padding    : 0 24px;
+                    font-size  : 18px;
+                    line-height: 64px;
+                    cursor     : pointer;
+                    transition : color 0.3s;
+                }
+
+                .trigger:hover {
+                    color: #1890ff;
+                }
+            }
+
+            .head_right {
+                .head_item {
+                    padding    : 0 16px;
+                    font-size  : 18px;
+                    line-height: 64px;
+                    cursor     : pointer;
+                }
+            }
+
+        }
+
+        .content_wrap {
+            background-color: #fff;
+            padding         : 16px;
+            margin          : 16px;
+        }
+    }
+}
